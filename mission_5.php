@@ -8,7 +8,6 @@ $upassword = "パスワード";
 ?>
 
 <?php
-//編集フォームの機能
 if (!empty($_POST["editnum1"])) {
     $enum1 = $_POST["editnum1"];
     $epass1 = $_POST["editpass1"];
