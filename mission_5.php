@@ -64,8 +64,8 @@ if (!empty($_POST["editnum1"])) {
 
 
 
+<!--投稿＆編集機能-->
 <?php
-//新規投稿＆編集機能
 if (empty($_POST["editnum"])) { //編集番号未入力
 
   //新規投稿機能
@@ -155,7 +155,9 @@ if (empty($_POST["editnum"])) { //編集番号未入力
     $error = $e->getMessage();
   }
 }
-  ?>
+?>
+
+
 
 <!--消去機能-->
 <?php
@@ -206,4 +208,3 @@ if (!empty($_POST["delnum"])) {
   }
 }
 ?>
-
